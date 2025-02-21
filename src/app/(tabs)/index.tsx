@@ -4,9 +4,9 @@ import { Link } from "expo-router";
 export default function HomeScreen() {
   return (
     <View>
-        <Link href={"/about"}>
-            Hello, world!
-        </Link>
+        <Text>
+            This is the home page.
+        </Text>
     </View>
   );
 }
