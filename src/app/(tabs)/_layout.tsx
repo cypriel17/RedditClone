@@ -11,6 +11,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
+            title: 'Home',
           headerTitle: 'Reddit',
           headerTintColor: "#FF5700",
           tabBarIcon: ({ color }) => <AntDesign name="home" size={24} color={color} />,
